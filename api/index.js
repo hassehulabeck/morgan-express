@@ -1,8 +1,8 @@
 import express from 'express';
 import morgan from 'morgan';
 
-import yearsRouter from './routes/years.js';
-import dataRouter from './routes/data.js';
+import yearsRouter from '../routes/years.js';
+import dataRouter from '../routes/data.js';
 
 const app = express();
 const port = 3000;
